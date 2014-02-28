@@ -1,0 +1,10 @@
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\bin\Debug\Mark 1.0.exe.config
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\bin\Debug\Mark 1.0.exe
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\bin\Debug\Mark 1.0.pdb
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Debug\Mark 1.0.csprojResolveAssemblyReference.cache
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Debug\Mark_1._0.Properties.Resources.resources
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Debug\Mark 1.0.csproj.GenerateResource.Cache
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Debug\Mark 1.0.exe
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Debug\Mark 1.0.pdb
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Debug\Mark_1._0.UserControl1.resources
+c:\users\алексей\documents\visual studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Debug\Mark_1._0.Girls.resources
