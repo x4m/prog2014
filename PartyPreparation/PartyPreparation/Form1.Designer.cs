@@ -44,6 +44,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -80,7 +81,7 @@
             this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(12, 12);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(133, 17);
+            this.radioButton1.Size = new System.Drawing.Size(140, 20);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "С употреблением чая";
@@ -91,7 +92,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(12, 35);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(52, 17);
+            this.radioButton2.Size = new System.Drawing.Size(59, 20);
             this.radioButton2.TabIndex = 3;
             this.radioButton2.Text = "Кофе";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -177,7 +178,7 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(12, 56);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(69, 17);
+            this.checkBox3.Size = new System.Drawing.Size(76, 21);
             this.checkBox3.TabIndex = 2;
             this.checkBox3.Text = "Варенье";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -188,7 +189,7 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(12, 33);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(52, 17);
+            this.checkBox2.Size = new System.Drawing.Size(59, 21);
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "Икра";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -198,7 +199,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(12, 13);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(51, 17);
+            this.checkBox1.Size = new System.Drawing.Size(58, 21);
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Сало";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -220,16 +221,28 @@
             this.trackBar1.Maximum = 25;
             this.trackBar1.Minimum = 3;
             this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(123, 45);
+            this.trackBar1.Size = new System.Drawing.Size(123, 69);
             this.trackBar1.TabIndex = 0;
             this.trackBar1.Value = 3;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button3.Location = new System.Drawing.Point(18, 360);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Печать";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(440, 405);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.кнопкаДобавить);
@@ -275,6 +288,7 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button button3;
     }
 }
 

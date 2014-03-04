@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using DevExpress.XtraReports.UI;
 
 namespace PartyPreparation
 {
@@ -26,23 +27,29 @@ namespace PartyPreparation
             if (result == DialogResult.OK)
             {
                 var fileName = sfd.FileName;
-                PartyData pd = new PartyData();
-                if (radioButton1.Checked)
-                    pd.drinkType = DrinkType.Tea;
-                else
-                    pd.drinkType = DrinkType.Coffee;
-
-                pd.Snacks = new List<SnackData>();
-                foreach (SnackData sd in listBox1.Items)
-                {
-                    pd.Snacks.Add(sd);
-                }
+                var pd = CreatePartyData();
 
                 XmlSerializer xs = new XmlSerializer(typeof(PartyData));
                 var fileStream = File.Create(fileName);
                 xs.Serialize(fileStream, pd);
                 fileStream.Close();
             }
+        }
+
+        private PartyData CreatePartyData()
+        {
+            PartyData pd = new PartyData();
+            if (radioButton1.Checked)
+                pd.drinkType = DrinkType.Tea;
+            else
+                pd.drinkType = DrinkType.Coffee;
+
+            pd.Snacks = new List<SnackData>();
+            foreach (SnackData sd in listBox1.Items)
+            {
+                pd.Snacks.Add(sd);
+            }
+            return pd;
         }
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
@@ -125,12 +132,35 @@ namespace PartyPreparation
         {
             button4.Enabled = listBox1.SelectedItem != null;
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            var pr = new PartyReport();
+            PartyData pd = CreatePartyData();
+            pr.DataSource = new BindingSource() {DataSource = pd};
+            pr.ShowPreview();
+        }
     }
 
     public class PartyData
     {
         public DrinkType drinkType { get; set; }
         public List<SnackData> Snacks { get; set; }
+
+        [XmlIgnore]
+        public int Total {get { return Snacks.Count; }}
+
+        [XmlIgnore]
+        public string Caption
+        {
+            get
+            {
+                if (drinkType == DrinkType.Tea)
+                    return "Чаепитие";
+                return "Злоупотребление кофе";
+
+            }
+        }
     }
 
     public class SnackData
@@ -139,6 +169,19 @@ namespace PartyPreparation
         public bool? Caviar { get; set; }
         public bool Jam { get; set; }
         public int Толщина { get; set; }
+
+        
+        [XmlIgnore]
+        public string BarCode
+        {
+            get
+            {
+                return this.ToString();
+            }
+        }
+
+        [XmlIgnore]
+        public string Description{get { return this.ToString(); }}
 
         public override string ToString()
         {
