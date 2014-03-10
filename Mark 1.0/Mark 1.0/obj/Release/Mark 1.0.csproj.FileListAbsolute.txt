@@ -8,3 +8,5 @@ C:\Users\Алексей\Documents\Visual Studio 2013\Projects\Mark 1.0\Mark 1.0\
 C:\Users\Алексей\Documents\Visual Studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Release\Mark 1.0.exe
 C:\Users\Алексей\Documents\Visual Studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Release\Mark 1.0.pdb
 C:\Users\Алексей\Documents\Visual Studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Release\Mark 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\Visual Studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Release\Mark 1.0.exe.licenses
+C:\Users\Алексей\Documents\Visual Studio 2013\Projects\Mark 1.0\Mark 1.0\obj\Release\Mark_1._0.PutanaReport.resources

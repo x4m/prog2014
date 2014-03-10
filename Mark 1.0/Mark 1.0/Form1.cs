@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
+using DevExpress.XtraReports.UI;
 
 namespace Mark_1._0
 {
@@ -21,7 +22,9 @@ namespace Mark_1._0
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("777.jpg");
+            pictureBox1.Image = Image.FromFile("780.jpg");
+         
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -58,39 +61,56 @@ namespace Mark_1._0
             if (result == DialogResult.OK)
             {
                 var fileName = sfd.FileName;
-                Putana pu = new Putana();
-                if (radioButton1.Checked)
-                    pu.option  = Option.Azia;
-                if (radioButton2.Checked)
-                    pu.option  = Option.Evro;
-                if (radioButton3.Checked)
-                    pu.option  = Option.Mulat;
-                if (radioButton4.Checked)
-                    pu.figura = Figura.polnaya;
-                if (radioButton6.Checked)
-                    pu.figura = Figura.thin;
-                if (radioButton5.Checked)
-                    pu.figura = Figura.norm;
-                if (radioButton7.Checked)
-                    pu.figura = Figura.jeer;
-                if (radioButton8.Checked)
-                    pu.chas = Chas.hour;
-                if (radioButton9.Checked)
-                    pu.chas = Chas.threehour;
-                if (radioButton10.Checked)
-                    pu.chas = Chas.night;
+                var pu = CreatePutana();
+                
 
-                pu.Age = (int)numericUpDown1.Value;
-
-                pu.tits = (int)trackBar1.Value;
-
+                
             XmlSerializer xs = new XmlSerializer(typeof(Putana));
                 var fileStream = File.Create(fileName);
                 xs.Serialize(fileStream, pu);
                 fileStream.Close();
+                
+              
             
             }
+            
         }
+
+        private Putana CreatePutana()
+        {
+            Putana pu = new Putana();
+            if (radioButton1.Checked)
+                pu.option = Option.Azia;
+             if (radioButton2.Checked)
+                pu.option = Option.Evro;
+             if (radioButton3.Checked)
+                pu.option = Option.Mulat;
+             if (radioButton4.Checked)
+                pu.figura = Figura.polnaya;
+             if (radioButton6.Checked)
+                pu.figura = Figura.thin;
+             if (radioButton5.Checked)
+                pu.figura = Figura.norm;
+             if (radioButton7.Checked)
+                pu.figura = Figura.jeer;
+             if (radioButton8.Checked)
+                pu.chas = Chas.hour;
+             if (radioButton9.Checked)
+                pu.chas = Chas.threehour;
+             if (radioButton10.Checked)
+                pu.chas = Chas.night;
+            
+
+
+            pu.Age = (int)numericUpDown1.Value;
+
+            pu.tits = (int)trackBar1.Value;
+            
+            return pu;
+        }
+    
+         
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -268,6 +288,9 @@ namespace Mark_1._0
             if (radioButton1.Checked)
             {
                 с = 1;
+               
+                    pictureBox1.Image = Image.FromFile("777.jpg");
+             
             }
             if (с == 1)
             {
@@ -283,6 +306,7 @@ namespace Mark_1._0
             {
                 с = 1;
             }
+            pictureBox1.Image = Image.FromFile("778.jpg");
             if (с == 1)
             {
                 label13.Text = "европейку";
@@ -297,6 +321,7 @@ namespace Mark_1._0
             {
                 с = 1;
             }
+            pictureBox1.Image = Image.FromFile("779.jpg");
             if (с == 1)
             {
                 label13.Text = "мулатку";
@@ -344,10 +369,63 @@ namespace Mark_1._0
             public Chas chas { get; set; }
             public int Age { get; set; }
             public int tits { get; set; }
+
+            [XmlIgnore]
+            public string Caption
+            {
+                get
+                {
+                    return "Девушка";
+                }
+            }
+
+            [XmlIgnore]
+            public string info
+            {
+                get
+                {
+                    if (option == Option.Azia)
+                        return "Азиатка";
+                    if (option == Option.Evro)
+                    return "Европейка";
+                    return "Мулатка ";
+                }
+            }
+
+            [XmlIgnore]
+            public string info1
+            {
+                get
+                {
+                    if (figura == Figura.thin)
+                        return "худую";
+                    if (figura == Figura.norm)
+                        return "стройную";
+                    if (figura == Figura.polnaya)
+                    return "полную";
+                    return "жирную";
+                }
+            }
+
+            [XmlIgnore]
+            public string info2
+            {
+                get
+                {
+                    if (chas == Chas.hour)
+                        return "час";
+                    if (chas == Chas.threehour)
+                        return "3 часа";
+                    return "ночь ";
+                }
+            }
+              
+        
+             
         }
             
-            
-            public enum Option
+                  
+           public enum Option
               {
                   Azia,
                   Evro,
@@ -367,10 +445,17 @@ namespace Mark_1._0
                   night
                   }
 
-                private void button3_Click(object sender, EventArgs e)
-                {
+              
 
+                private void button3_Click_1(object sender, EventArgs e)
+                {
+                    var pr = new PutanaReport();
+                    Putana pu = CreatePutana();
+                    pr.DataSource = new BindingSource() { DataSource = pu };
+                    pr.ShowPreview();
                 }
+                
+                  
 
              
         }
