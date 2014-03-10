@@ -7,33 +7,14 @@ c:\users\вячеслав\documents\visual studio 2013\Projects\library_applicat
 c:\users\вячеслав\documents\visual studio 2013\Projects\library_application\library_application\bin\Debug\library_application.pdb
 c:\users\вячеслав\documents\visual studio 2013\Projects\library_application\library_application\obj\Debug\library_application.exe
 c:\users\вячеслав\documents\visual studio 2013\Projects\library_application\library_application\obj\Debug\library_application.pdb
-C:\Users\Вика\Desktop\library_application\library_application\library_application\bin\Debug\library_application.exe.config
-C:\Users\Вика\Desktop\library_application\library_application\library_application\obj\Debug\library_application.exe
-C:\Users\Вика\Desktop\library_application\library_application\library_application\obj\Debug\library_application.pdb
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\bin\Debug\library_application.exe.config
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\obj\Debug\library_application.exe
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\obj\Debug\library_application.pdb
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\bin\Debug\library_application.exe
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\bin\Debug\library_application.pdb
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\obj\Debug\library_application.csprojResolveAssemblyReference.cache
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\obj\Debug\library_application.Form1.resources
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\obj\Debug\library_application.Properties.Resources.resources
-C:\Users\Вика\Desktop\копия славы\library_application\library_application\obj\Debug\library_application.csproj.GenerateResource.Cache
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\bin\Debug\library_application.exe.config
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\obj\Debug\library_application.exe
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\obj\Debug\library_application.pdb
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\bin\Debug\library_application.exe
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\bin\Debug\library_application.pdb
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\obj\Debug\library_application.csprojResolveAssemblyReference.cache
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\obj\Debug\library_application.Form1.resources
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\obj\Debug\library_application.Properties.Resources.resources
-C:\Users\Вика\Desktop\сохинова вв ри-220401\library_application\library_application\obj\Debug\library_application.csproj.GenerateResource.Cache
-C:\Users\Вячеслав\Desktop\яя\проет сохинова\проет сохинова\library_application\library_application\bin\Debug\library_application.exe.config
-C:\Users\Вячеслав\Desktop\яя\проет сохинова\проет сохинова\library_application\library_application\obj\Debug\library_application.exe
-C:\Users\Вячеслав\Desktop\яя\проет сохинова\проет сохинова\library_application\library_application\obj\Debug\library_application.pdb
-C:\Users\Вячеслав\Documents\GitHub\1\prog2014_dz\library_application\library_application\bin\Debug\library_application.exe.config
-C:\Users\Вячеслав\Documents\GitHub\1\prog2014_dz\library_application\library_application\obj\Debug\library_application.exe
-C:\Users\Вячеслав\Documents\GitHub\1\prog2014_dz\library_application\library_application\obj\Debug\library_application.pdb
-C:\Users\Вячеслав\Documents\GitHub\1\prog2014\library_application\bin\Debug\library_application.exe.config
-C:\Users\Вячеслав\Documents\GitHub\1\prog2014\library_application\obj\Debug\library_application.exe
-C:\Users\Вячеслав\Documents\GitHub\1\prog2014\library_application\obj\Debug\library_application.pdb
+C:\Users\Вячеслав\Desktop\library_application\library_application\bin\Debug\library_application.exe.config
+C:\Users\Вячеслав\Desktop\library_application\library_application\obj\Debug\library_application.exe
+C:\Users\Вячеслав\Desktop\library_application\library_application\obj\Debug\library_application.pdb
+C:\Users\Вячеслав\Desktop\library_application\library_application\obj\Debug\library_application.csprojResolveAssemblyReference.cache
+C:\Users\Вячеслав\Desktop\library_application\library_application\obj\Debug\library_application.Form1.resources
+C:\Users\Вячеслав\Desktop\library_application\library_application\obj\Debug\library_application.Properties.Resources.resources
+C:\Users\Вячеслав\Desktop\library_application\library_application\obj\Debug\library_application.csproj.GenerateResource.Cache
+C:\Users\Вячеслав\Desktop\library_application\library_application\bin\Debug\library_application.exe
+C:\Users\Вячеслав\Desktop\library_application\library_application\bin\Debug\library_application.pdb
+C:\Users\Вячеслав\Desktop\library_application\library_application\obj\Debug\library_application.exe.licenses
+C:\Users\Вячеслав\Desktop\library_application\library_application\obj\Debug\library_application.LibReport.resources

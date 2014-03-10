@@ -9,30 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using System.IO;
+using DevExpress.XtraReports.UI;
 
 namespace library_application   {
     public partial class Form1 : Form    {
         public Form1()  {
             InitializeComponent();
         }
-
-        public class library    {
-            public List<book> books { get; set; }
-
-            public static object Two { get; set; }
-       
-        }
-        public class book   {
-            public string author { get; set; }
-            public string name { get; set; }
-            public int year { get; set; }
-            public override string ToString()
-            {
-                var str = "Книга: " + author + " / " + name + ", " + year + "г.";
-                return str;
-            }
-        }
-
+               
         private void button1_Click(object sender, EventArgs e)
         {
             SaveFileDialog save = new SaveFileDialog() { Filter = "список книг|*.xml" };
@@ -40,16 +24,23 @@ namespace library_application   {
             if (result == DialogResult.OK)
             {
                 var fileName = save.FileName;
-                library lb = new library();
-                lb.books = new List<book>();
-                foreach (book bk in listBox1.Items)     {
-                    lb.books.Add(bk);
-                }
+                var lb = CreateLibData();
                 XmlSerializer xser = new XmlSerializer(typeof(library));
                 var fileStream = File.Create(fileName);
                 xser.Serialize(fileStream, lb);
                 fileStream.Close();
             }
+        }
+
+        private library CreateLibData()
+        {
+            library lb = new library();
+            lb.books = new List<book>();
+            foreach (book bk in listBox1.Items)
+            {
+                lb.books.Add(bk);
+            }
+            return lb;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -63,10 +54,13 @@ namespace library_application   {
                 name = textBox2.Text,
                 year = (int)numericUpDown1.Value,
             };
+            if (radioButton1.Checked) bk.cover = "в твёрдом переплёте";
+            if (radioButton2.Checked) bk.cover = "в мягком переплёте";
             listBox1.Items.Add(bk);
             textBox1.Text = null;
             textBox2.Text = null;
             numericUpDown1.Value = 1900;
+            radioButton1.Checked = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -88,9 +82,8 @@ namespace library_application   {
                 listBox1.Items.Clear();
                 foreach (var book in lb.books)
                 {
-                    listBox1.Items.Add(book);                  
+                    listBox1.Items.Add(book);
                 }
-                     
             }
         }
 
@@ -102,48 +95,35 @@ namespace library_application   {
         private void button5_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-            
-
-        }
-
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked == true && checkBox2.Checked == true)
-                MessageBox.Show("Вы выбрали две книги");
-
-
-            else if (checkBox1.Checked == true)
-                MessageBox.Show("Вы выбрали одну книгу");
-            else if (checkBox2.Checked == true)
-                MessageBox.Show("Вы выбрали одну книгу");
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked == true && checkBox2.Checked == true)
-                MessageBox.Show("Вы выбрали две книги");
-
-
-            else if (checkBox1.Checked == true)
-                MessageBox.Show("Вы выбрали одну книгу");
-            else if (checkBox2.Checked == true)
-                MessageBox.Show("Вы выбрали одну книгу");  
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            this.BackColor = Color.LightYellow;
+            var lr = new LibReport();
+            library lb = CreateLibData();
+            lr.DataSource = new BindingSource() {DataSource = lb};
+            lr.ShowPreview();
         }
 
     }
+
+    public class library
+    {
+        public List<book> books { get; set; }
+        public int book_total { get { return books.Count; } }
+    }
+    public class book
+    {
+        public string author { get; set; }
+        public string name { get; set; }
+        public int year { get; set; }
+        public string cover { get; set; }
+        public override string ToString()
+        {
+            var str = "Книга: " + author + " / " + name + ", " + year + "г." + " - " + cover;
+            return str;
+        }
+    }
+
+
 }
