@@ -40,9 +40,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(8, 8);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 29);
+            this.button1.Size = new System.Drawing.Size(59, 19);
             this.button1.TabIndex = 0;
             this.button1.Text = "Открыть";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,27 +51,30 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(107, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(71, 8);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(831, 358);
+            this.pictureBox1.Size = new System.Drawing.Size(342, 350);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(107, 376);
+            this.pictureBox2.Location = new System.Drawing.Point(417, 8);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(831, 340);
+            this.pictureBox2.Size = new System.Drawing.Size(356, 350);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 47);
+            this.button2.Location = new System.Drawing.Point(8, 31);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 46);
+            this.button2.Size = new System.Drawing.Size(50, 30);
             this.button2.TabIndex = 3;
             this.button2.Text = "do";
             this.button2.UseVisualStyleBackColor = true;
@@ -78,26 +82,28 @@
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(12, 115);
+            this.trackBar1.Location = new System.Drawing.Point(8, 75);
+            this.trackBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.trackBar1.Maximum = 200;
             this.trackBar1.Minimum = 5;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar1.Size = new System.Drawing.Size(69, 586);
+            this.trackBar1.Size = new System.Drawing.Size(45, 381);
             this.trackBar1.TabIndex = 4;
             this.trackBar1.Value = 5;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 728);
+            this.ClientSize = new System.Drawing.Size(976, 458);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
