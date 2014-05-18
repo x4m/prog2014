@@ -1,0 +1,11 @@
+C:\Users\ambor_000\Documents\c3\HttpServer\bin\Debug\HttpServer.exe.config
+C:\Users\ambor_000\Documents\c3\HttpServer\bin\Debug\HttpServer.exe
+C:\Users\ambor_000\Documents\c3\HttpServer\bin\Debug\HttpServer.pdb
+C:\Users\ambor_000\Documents\c3\HttpServer\obj\Debug\HttpServer.Form1.resources
+C:\Users\ambor_000\Documents\c3\HttpServer\obj\Debug\HttpServer.Properties.Resources.resources
+C:\Users\ambor_000\Documents\c3\HttpServer\obj\Debug\HttpServer.csproj.GenerateResource.Cache
+C:\Users\ambor_000\Documents\c3\HttpServer\obj\Debug\HttpServer.exe
+C:\Users\ambor_000\Documents\c3\HttpServer\obj\Debug\HttpServer.pdb
+C:\Users\ambor_000\Documents\c3\HttpServer\obj\Debug\HttpServer.csprojResolveAssemblyReference.cache
+C:\Users\ambor_000\Documents\c3\HttpServer\bin\Debug\PartyData.dll
+C:\Users\ambor_000\Documents\c3\HttpServer\bin\Debug\PartyData.pdb

@@ -1,0 +1,11 @@
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\bin\Debug\TcpPartyClient.exe.config
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\bin\Debug\TcpPartyClient.exe
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\bin\Debug\TcpPartyClient.pdb
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\bin\Debug\PartyData.dll
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\bin\Debug\PartyData.pdb
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\obj\Debug\TcpPartyClient.ClientForm.resources
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\obj\Debug\TcpPartyClient.Properties.Resources.resources
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\obj\Debug\PartyClient.csproj.GenerateResource.Cache
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\obj\Debug\TcpPartyClient.exe
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\obj\Debug\TcpPartyClient.pdb
+C:\Users\ambor_000\Documents\c3\TcpPartyClient\obj\Debug\PartyClient.csprojResolveAssemblyReference.cache
