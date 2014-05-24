@@ -1,0 +1,10 @@
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\bin\Debug\TcpPartyServer.exe.config
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\bin\Debug\TcpPartyServer.exe
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\bin\Debug\TcpPartyServer.pdb
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\obj\Debug\TcpPartyServer.TcpServerForm.resources
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\obj\Debug\TcpPartyServer.Properties.Resources.resources
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\obj\Debug\TcpPartyServer.csproj.GenerateResource.Cache
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\obj\Debug\TcpPartyServer.exe
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\obj\Debug\TcpPartyServer.pdb
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\bin\Debug\PartyData.dll
+C:\Users\ambor_000\Documents\c3\TcpPartyServer\bin\Debug\PartyData.pdb

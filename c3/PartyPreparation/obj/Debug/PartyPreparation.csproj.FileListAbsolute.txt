@@ -1,0 +1,18 @@
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\bin\Debug\PartyPreparation.exe.config
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\bin\Debug\PartyPreparation.exe
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\bin\Debug\PartyPreparation.pdb
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\obj\Debug\PartyPreparation.csprojResolveAssemblyReference.cache
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\obj\Debug\PartyPreparation.Form1.resources
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\obj\Debug\PartyPreparation.Properties.Resources.resources
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\obj\Debug\PartyPreparation.csproj.GenerateResource.Cache
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\obj\Debug\PartyPreparation.exe
+C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\PartyPreparation\PartyPreparation\obj\Debug\PartyPreparation.pdb
+C:\Users\ambor_000\Documents\c3\PartyPreparation\bin\Debug\PartyPreparation.exe.config
+C:\Users\ambor_000\Documents\c3\PartyPreparation\obj\Debug\PartyPreparation.exe
+C:\Users\ambor_000\Documents\c3\PartyPreparation\obj\Debug\PartyPreparation.pdb
+C:\Users\ambor_000\Documents\c3\PartyPreparation\bin\Debug\PartyPreparation.exe
+C:\Users\ambor_000\Documents\c3\PartyPreparation\bin\Debug\PartyPreparation.pdb
+C:\Users\ambor_000\Documents\c3\PartyPreparation\obj\Debug\PartyPreparation.csprojResolveAssemblyReference.cache
+C:\Users\ambor_000\Documents\c3\PartyPreparation\obj\Debug\PartyPreparation.Form1.resources
+C:\Users\ambor_000\Documents\c3\PartyPreparation\obj\Debug\PartyPreparation.Properties.Resources.resources
+C:\Users\ambor_000\Documents\c3\PartyPreparation\obj\Debug\PartyPreparation.csproj.GenerateResource.Cache

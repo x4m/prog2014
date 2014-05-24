@@ -1,0 +1,5 @@
+C:\Users\ambor_000\Documents\c3\PartyData\bin\Debug\PartyData.dll
+C:\Users\ambor_000\Documents\c3\PartyData\bin\Debug\PartyData.pdb
+C:\Users\ambor_000\Documents\c3\PartyData\obj\Debug\PartyData.csprojResolveAssemblyReference.cache
+C:\Users\ambor_000\Documents\c3\PartyData\obj\Debug\PartyData.dll
+C:\Users\ambor_000\Documents\c3\PartyData\obj\Debug\PartyData.pdb
