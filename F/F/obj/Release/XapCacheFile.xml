@@ -1,0 +1,13 @@
+﻿<xapCache source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Bin\Release\F_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="24.05.2014 11:33:19">
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\obj\Release\F.dll" archivePath="F.dll" lastWriteTime="24.05.2014 11:33:18" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\obj\Release\ru\F.resources.dll" archivePath="ru\F.resources.dll" lastWriteTime="24.05.2014 11:33:18" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="24.05.2014 10:17:44" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="24.05.2014 10:17:44" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="24.05.2014 10:17:44" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="24.05.2014 10:17:44" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="24.05.2014 10:17:44" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="24.05.2014 11:33:16" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="24.05.2014 11:33:06" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="24.05.2014 10:17:44" />
+  <file source="C:\Users\ambor_000\Desktop\Новая папка\MyProjectSrc\trunk\F\F\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="24.05.2014 11:33:16" />
+</xapCache>
