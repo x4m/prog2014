@@ -1,2 +1,2 @@
-prog2014
-========
+Vika Sokhinova
+RI-220401
